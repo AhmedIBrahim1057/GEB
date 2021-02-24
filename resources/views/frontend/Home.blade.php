@@ -103,7 +103,7 @@
         </div>
     </div>
 </section>
-<section class="objectives">
+<section class="objectives" style="background: url('../../images/place-holder.jpg') no-repeat center;">
     <div class="container" class="OContainer" style="background-color: #fff; padding: 20px; border-radius: 5px;"
         data-aos="zoom-in" data-aos-duration="1500">
         <div class="row" style="padding: 10px;">
@@ -152,7 +152,7 @@
     </div>
 </section>
 <section class="backimg"
-    style="background: url('/frontendFiles/img/ASRP-banners/photo-of-people-holding-each-other-s-hands-3184422.jpg') center no-repeat; background-size: cover; background-attachment: fixed; padding: 0px; height: 350px;">
+    style="background: url('/images/place-holder.jpg') center no-repeat; background-size: cover; background-attachment: fixed; padding: 0px; height: 350px;">
     <div class="hover" style="background-color: #0a071f6c; height: 100%;"></div>
 </section>
 <section class="events">
