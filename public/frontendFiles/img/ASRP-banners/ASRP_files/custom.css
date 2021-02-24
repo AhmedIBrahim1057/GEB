@@ -1,0 +1,250 @@
+/* Add here all your CSS customizations */
+
+
+/* Home */
+.section.our-clients .sliderImgDiv{
+    /* box-shadow: 1px 10px 19px -15px rgba(0, 0, 0, 0.33) !important; */
+    box-shadow: 0px 0px 19px -12px rgba(0, 0, 0, 0.33) !important;
+    margin: 3px auto;
+    position: relative;
+    width: 100%;
+    height: 145px;
+    /* background: #242e39; */
+    /* border: 1px solid #e2e2e2; */
+}
+
+.section.our-clients .sliderImgDiv img{
+    max-height: 65%;
+    max-width: 100%;
+    width: auto !important;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section.our-clients {
+    padding: 29px 0 60px;
+}
+
+
+/* Events Home Sections START */
+.thumb-info-side-image-custom:hover {
+    box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33) !important;
+}
+
+.thumb-info-side-image-custom {
+    border: 0 none;
+    color:
+        #777;
+    margin: 0 0 35px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.thumb-info-side-image-custom.thumb-info-side-image-custom-highlight .thumb-info-side-image-wrapper {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.thumb-info-side-image-custom.thumb-info-side-image-custom-highlight .thumb-info-caption {
+    padding: 0 10px;
+    display: block;
+    clear: both;
+}
+
+.thumb-info-caption .thumb-info-caption-text,
+.thumb-info-caption p {
+    font-size: 0.9em !important;
+    line-height: 20px;
+    margin: 0 0 8px;
+    padding: 10px;
+    display: block;
+}
+
+.thumb-info-side-image-custom.thumb-info-side-image-custom-highlight .thumb-info-caption h4 {
+    margin: 3px 0 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.thumb-info-side-image-custom.thumb-info-side-image-custom-highlight .thumb-info-caption p {
+    margin: 0;
+    padding: 0;
+}
+
+.thumb-info-side-image-custom .thumb-info-caption p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px !important;
+    line-height: 24px;
+}
+
+/* button */
+
+html .btn-borders.btn-quaternary {
+    background:
+        transparent;
+    border-color:
+        #ffffff;
+    color:
+        #ffffff;
+    text-shadow: none;
+}
+
+.custom-button {
+    border-radius: 30px !important;
+    padding: 10px 30px;
+}
+
+html .btn-borders.btn-quaternary:hover:hover,
+html .btn-borders.btn-quaternary:focus:hover {
+    border-color: #ffffff #ffffff #f2f2f2;
+    background-color:
+        #ffffff;
+}
+
+html .btn-borders.btn-quaternary:hover,
+html .btn-borders.btn-quaternary:focus {
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff #ffffff #e6e6e6;
+    border-color:
+        #ffffff !important;
+    color:
+        #adb3c2;
+}
+
+html .btn-borders.btn-quaternary {
+    background:
+        transparent;
+    background-color: transparent;
+    border-color: #242e39;
+    color: #242e39;
+    text-shadow: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* Events Home Sections END */
+
+/* Pagination styling START */
+.pagination>li>a,
+.pagination>li>span {
+    border-radius: 25px;
+    padding: 8px 13px;
+    border-width: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 0.9em;
+    border-radius: 25px !important;
+    margin-left: 4px;
+
+    background: transparent;
+
+    -webkit-transition: all 0.1s;
+
+    -moz-transition: all 0.1s;
+
+    transition: all 0.1s;
+}
+
+.pagination>li>a,
+.pagination>li>span,
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
+    /* background-color: #222d37; */
+    border-color: #182027 !important;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+
+    background: transparent;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: #242e39 !important;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    background-color: #242e39 !important;
+    color: #fff;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: transparent !important;
+    color: #242e39 !important;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+    padding: 8px 25px;
+}
+/* Pagination styling END */
+
+/* Internal pages events */
+.internal_page.section{ /* events blocks page */
+    background: #fff;
+    border:none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Internal page event details */
+.event_img{
+    margin:auto !important;
+}
+.additional_imgs{
+    margin-top: 85px !important;
+}
+
+.additional_imgs .sliderImgDiv{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    /* background: #242e39; */
+    /* border: 1px solid #e2e2e2; */
+    box-shadow: 5px -5px 8px -7px rgba(0, 0, 0, 0.33) !important;
+}
+.additional_imgs .sliderImgDiv img{
+    max-height: 100%;
+    max-width: 100%;
+    width: auto !important;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+

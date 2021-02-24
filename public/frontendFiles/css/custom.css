@@ -1,0 +1,231 @@
+/* Add here all your CSS customizations */
+.dropdown-full-color.dropdown-primary.active
+{
+    color: #fff !important;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Open Sans", Arial, sans-serif;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+section
+{
+    padding: 100px 0;
+}
+
+/*--------------------index-------------------------*/
+
+.main
+{
+    position: relative;
+}
+.cursor
+{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+    z-index: 99;
+    animation: cursor .7s ease-in-out infinite;
+}
+.cursor i
+{
+    font-size: 25px;
+    margin: 0 0 3px 2px ;
+    
+}
+@keyframes cursor {
+    0%{
+        bottom: 5px;
+    }
+    50%{
+        bottom: 15px;
+    }
+    100%{
+        bottom: 5px;
+    }
+}
+.objectives
+{
+    background: url("img/ASRP-banners/bk.jpg") no-repeat center ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cardWrapper
+{
+    width: 280px;
+    margin: auto;
+}
+
+.wrapper {
+            position: relative;
+            perspective: 40em;
+            display: grid;
+            transform-style: preserve-3d;
+            cursor: pointer;
+            }
+
+            .card {
+            grid-area: 1 / 1;
+            height: 200px;
+            width: 280px;
+            transform: translateX(10px) rotateY(25deg) rotateX(10deg);
+            background: rgba(249, 198, 26, 0.88);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 30px;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 60px;
+            font-weight: 900;
+            backface-visibility: hidden;
+            box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+            }
+
+            .card .enclosed {
+            background: #000;
+            line-height: 1;
+            color: rgba(249, 198, 26, 1);
+            padding: 0 5px;
+            display: inline-block;
+            transform: translate(-1px, 1px) scale(0.75);
+            transform-origin: right center;
+            }
+
+            .wrapper:before {
+            --bw: 9px;
+            grid-area: 1 / 1;
+            content: '';
+            backface-visibility: hidden;
+            height: 100%;
+            width: 100%;
+            margin-top: calc(-1 * var(--bw));
+            margin-left: calc(-1 * var(--bw));
+            background: transparent;
+            transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+            pointer-events: none;
+            border: var(--bw) solid #000;
+            box-sizing: content-box;
+            }
+
+
+            .wrapper:hover > div,
+            .wrapper:hover:before {
+            transform: none;
+            }
+
+
+            .wrapper > div,
+            .wrapper:before {
+            will-change: transform;
+            transition: .3s transform cubic-bezier(.25,.46,.45,1);
+}
+
+
+.objectives
+{
+    background: url('../img/ASRP-banners/bk.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/*---------------------login------------------------*/
+
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 0px 10px #ccc;
+    -webkit-box-shadow: 0px 10px 10px #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+/* by mg */
+.customContent p{
+    margin: 0;
+}
