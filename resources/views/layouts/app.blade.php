@@ -164,7 +164,8 @@
                                                 
                                                     @guest
                                                         <li class="dropdown-full-color dropdown-primary">
-                                                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                                            {{-- {{ route('login') }} --}}
+                                                            <a class="nav-link" href="#">{{ __('Login') }}</a>
                                                         </li>
                                                         {{-- @if (Route::has('register'))
                                                             <li class="dropdown-full-color dropdown-primary">

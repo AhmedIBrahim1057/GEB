@@ -6,7 +6,7 @@
         <div id="revolutionSlider" class="slider rev_slider manual">
             <ul>
                 <li data-transition="fade">
-                    <img src=""  
+                    <img src="{{asset('/images/place-holder.jpg')}}"  
                         alt=""
                         data-bgposition="center center" 
                         data-bgfit="cover" 
@@ -20,10 +20,10 @@
                         data-voffset="['28','28','28','28']" 
                         data-start="500"
                         data-basealign="slide" 
-                        data-transform_in="y:[-300%];opacity:0;s:500;">The Explorers</div>
+                        data-transform_in="y:[-300%];opacity:0;s:500;"></div>
                 </li>
                 <li data-transition="fade">
-                    <img src=""  
+                    <img src="{{asset('/images/place-holder.jpg')}}"  
                         alt=""
                         data-bgposition="center center" 
                         data-bgfit="cover" 
@@ -37,10 +37,10 @@
                         data-voffset="['28','28','28','28']" 
                         data-start="500"
                         data-basealign="slide" 
-                        data-transform_in="y:[-300%];opacity:0;s:500;">The Happy Family</div>
+                        data-transform_in="y:[-300%];opacity:0;s:500;"></div>
                 </li>
                 <li data-transition="fade">
-                    <img src=""  
+                    <img src="{{asset('/images/place-holder.jpg')}}"  
                         alt=""
                         data-bgposition="center center" 
                         data-bgfit="cover" 
@@ -54,10 +54,10 @@
                         data-voffset="['28','28','28','28']" 
                         data-start="500"
                         data-basealign="slide" 
-                        data-transform_in="y:[-300%];opacity:0;s:500;">The Cool Style</div>
+                        data-transform_in="y:[-300%];opacity:0;s:500;"></div>
                 </li>
                 <li data-transition="fade">
-                    <img src=""  
+                    <img src="{{asset('/images/place-holder.jpg')}}"  
                         alt=""
                         data-bgposition="center center" 
                         data-bgfit="cover" 
@@ -71,10 +71,10 @@
                         data-voffset="['28','28','28','28']" 
                         data-start="500"
                         data-basealign="slide" 
-                        data-transform_in="y:[-300%];opacity:0;s:500;">The Bride</div>
+                        data-transform_in="y:[-300%];opacity:0;s:500;"></div>
                 </li>
                 <li data-transition="fade">
-                    <img src=""  
+                    <img src="{{asset('/images/place-holder.jpg')}}"  
                         alt=""
                         data-bgposition="center center" 
                         data-bgfit="cover" 
@@ -88,7 +88,7 @@
                         data-voffset="['28','28','28','28']" 
                         data-start="500"
                         data-basealign="slide" 
-                        data-transform_in="y:[-300%];opacity:0;s:500;">The Landscape</div>
+                        data-transform_in="y:[-300%];opacity:0;s:500;"></div>
                 </li>
             </ul>
         </div>
