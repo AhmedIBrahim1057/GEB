@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -49,10 +48,13 @@
     <link rel="stylesheet" href="{{asset('/frontendFiles/css/demos/demo-photography.css')}}">
 
     <!-- Theme Custom CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    {{-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> --}}
-    {{-- <link rel="stylesheet" href="{{asset('/frontendFiles/css/aos.css')}}"> --}}
     <link rel="stylesheet" href="{{asset('/frontendFiles/css/custom.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="{{asset('/frontendFiles/css/aos.css')}}">
+
+    <!-- Head Libs -->
+		<script src="/frontendFiles/vendor/modernizr/modernizr.min.js"></script>
 
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
 
@@ -164,8 +166,7 @@
                                                 
                                                     @guest
                                                         <li class="dropdown-full-color dropdown-primary">
-                                                            {{-- {{ route('login') }} --}}
-                                                            <a class="nav-link" href="#">{{ __('Login') }}</a>
+                                                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                                         </li>
                                                         {{-- @if (Route::has('register'))
                                                             <li class="dropdown-full-color dropdown-primary">
@@ -328,7 +329,7 @@
     <script src="{{asset('/frontendFiles/vendor/magnific-popup/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{asset('/frontendFiles/vendor/vide/vide.min.js')}}"></script>
     <script src="{{asset('/frontendFiles/vendor/jquery-mousewheel/jquery.mousewheel.min.js')}}"></script>
-    <script src="{{asset('/frontendFiles/vendor/modernizr/modernizr.min.js')}}"></script>
+    {{-- <script src="{{asset('/frontendFiles/vendor/modernizr/modernizr.min.js')}}"></script> --}}
 
     <!-- Theme Base, Components and Settings -->
     <script src="{{asset('/frontendFiles/js/theme.js')}}"></script>
@@ -349,11 +350,11 @@
     <!-- Theme Initialization Files -->
     <script src="{{asset('/frontendFiles/js/theme.init.js')}}"></script>
 
-    {{-- <script src="{{asset('/frontendFiles/js/aos.js')}}"></script>
+    <script src="{{asset('/frontendFiles/js/aos.js')}}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js')}}"></script>
     <script>
         AOS.init();
-    </script> --}}
+    </script>
     
     @yield('js')
 </body>
