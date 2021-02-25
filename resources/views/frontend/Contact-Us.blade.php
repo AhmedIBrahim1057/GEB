@@ -1,5 +1,7 @@
 @extends('../../layouts.app')
-
+@section('head')
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+@endsection
 @section('content')
 <div role="main" class="main" id="main">
     <section class="section section-title section-text-light section-background section-center" style="background-image: url({{asset('images/custom-header-bg.jpg')}});">
@@ -82,7 +84,7 @@
                         <div class="row">
                             <div class="form-group ">
                                 <div class="col-md-12">
-                                    <div style="display: inline-block;" class="g-recaptcha" data-sitekey="zz"></div>
+                                    <div style="display: inline-block;" class="g-recaptcha" data-sitekey="6LetIWcaAAAAAFl0KANTjcdm5t4JE0uXo3fH3NTx"></div>
                                 </div>
                             </div>
                         </div>

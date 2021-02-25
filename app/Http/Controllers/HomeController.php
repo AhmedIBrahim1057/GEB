@@ -62,9 +62,19 @@ class HomeController extends Controller
         return view('frontend.deliverables.Egyptian-Society-of-GE');
     }
 
-    public function events()
+    public function eventsMeetings()
     {
-        return view('frontend.Events');
+        return view('frontend.events.Meetings');
+    }
+
+    public function eventsTrainings()
+    {
+        return view('frontend.events.Trainings');
+    }
+
+    public function eventsDissemination()
+    {
+        return view('frontend.events.Dissemination');
     }
 
     public function projectNewsletters()

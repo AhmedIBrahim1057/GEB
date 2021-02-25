@@ -57,7 +57,7 @@
     <!-- Head Libs -->
 		<script src="/frontendFiles/vendor/modernizr/modernizr.min.js"></script>
 
-    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
+    @yield('head')
 
 </head>
 <body class="loading-overlay-showing" data-loading-overlay>
@@ -149,10 +149,27 @@
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li class="dropdown-full-color dropdown-primary">
-                                                        <a href="/events">
+                                                    <li class="dropdown dropdown-full-color dropdown-primary">
+                                                        <a class="dropdown-toggle" href="/#">
                                                             Events
                                                         </a>
+                                                        <ul class="dropdown-menu custom-dropdown-menu-style-1">
+                                                            <li>
+                                                                <a href="/events-meetings">
+                                                                    Meetings
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/events-trainings">
+                                                                    Trainings 
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/events-dissemination">
+                                                                    Dissemination
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li class="dropdown-full-color dropdown-primary">
                                                         <a href="/project-newsletters">

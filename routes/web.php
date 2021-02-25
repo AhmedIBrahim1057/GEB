@@ -33,7 +33,11 @@ Route::get('/deliverables-integrated-ge-laboratories', 'HomeController@deliverab
 
 Route::get('/deliverables-egyptian-Society-of-ge', 'HomeController@deliverablesEgyptianSocietyOfGE')->name('deliverables-egyptian-Society-of-ge');
 
-Route::get('/events', 'HomeController@events')->name('events');
+Route::get('/events-meetings', 'HomeController@eventsMeetings')->name('events-meetings');
+
+Route::get('/events-trainings', 'HomeController@eventsTrainings')->name('events-trainings');
+
+Route::get('/events-dissemination', 'HomeController@eventsDissemination')->name('events-dissemination');
 
 Route::get('/project-newsletters', 'HomeController@projectNewsletters')->name('project-newsletters');
 
