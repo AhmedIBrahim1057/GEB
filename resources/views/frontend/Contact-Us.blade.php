@@ -82,7 +82,7 @@
                         <div class="row">
                             <div class="form-group ">
                                 <div class="col-md-12">
-                                    <div style="display: inline-block;" class="g-recaptcha" data-sitekey="6LfmKvAUAAAAAObWF0ZvNGMimEnnCiBFqT02uX0m"></div>
+                                    <div style="display: inline-block;" class="g-recaptcha" data-sitekey="zz"></div>
                                 </div>
                             </div>
                         </div>
